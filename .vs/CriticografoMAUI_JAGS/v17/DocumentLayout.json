@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C39CEBDF-4583-4785-B450-CEF869B0A732}|CriticografoMAUI_JAGS.csproj|c:\\users\\cd16\\source\\repos\\criticografomaui_jags\\viewmodel\\vmcriticografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39CEBDF-4583-4785-B450-CEF869B0A732}|CriticografoMAUI_JAGS.csproj|solutionrelative:viewmodel\\vmcriticografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C39CEBDF-4583-4785-B450-CEF869B0A732}|CriticografoMAUI_JAGS.csproj|c:\\users\\cd16\\source\\repos\\criticografomaui_jags\\views\\criticografoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C39CEBDF-4583-4785-B450-CEF869B0A732}|CriticografoMAUI_JAGS.csproj|solutionrelative:views\\criticografoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VMcriticografo.cs",
+              "DocumentMoniker": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\ViewModel\\VMcriticografo.cs",
+              "RelativeDocumentMoniker": "ViewModel\\VMcriticografo.cs",
+              "ToolTip": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\ViewModel\\VMcriticografo.cs",
+              "RelativeToolTip": "ViewModel\\VMcriticografo.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswH0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:44:48.837Z",
+              "WhenOpened": "2025-02-27T16:11:08.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CriticografoView.xaml",
               "DocumentMoniker": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\Views\\CriticografoView.xaml",
               "RelativeDocumentMoniker": "Views\\CriticografoView.xaml",
               "ToolTip": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\Views\\CriticografoView.xaml",
               "RelativeToolTip": "Views\\CriticografoView.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-27T15:43:31.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:44:48.837Z",
               "EditorCaption": ""
             }
           ]

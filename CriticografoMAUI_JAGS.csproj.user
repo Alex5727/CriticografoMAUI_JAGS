@@ -5,6 +5,7 @@
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
     <ActiveDebugProfile>Asus _I005DA (Android 9.0 - API 28)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <DefaultDevice>wear_os_square_-_api_35</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Views\CriticografoView.xaml">

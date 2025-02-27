@@ -19,11 +19,11 @@
         <FlexLayout JustifyContent="SpaceAround">
             <StackLayout >
                 <FlexLayout AlignItems="Center">
-                    <RadioButton GroupName="Genero"  x:Name="Hombre"/>
+                    <RadioButton GroupName="Genero" IsChecked="{Binding Hombre}"/>
                     <Label Text="Hombre" VerticalOptions="Center" />
                 </FlexLayout>
                 <FlexLayout AlignItems="Center" Margin="0,20,60,0">
-                    <RadioButton GroupName="Genero" x:Name="Mujer"/>
+                    <RadioButton GroupName="Genero" IsChecked="{Binding Mujer}"/>
                     <Label Text="Mujer" VerticalOptions="Center" />
                 </FlexLayout>
             </StackLayout>
@@ -48,33 +48,33 @@
                 </Grid.RowDefinitions>
 
                 <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
-                    <CheckBox x:Name="Alto"/>
+                    <CheckBox IsChecked="{Binding Alto}"/>
                     <Label Text="Alto" VerticalOptions="Center" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
-                    <CheckBox x:Name="Feo"/>
+                        <CheckBox IsChecked="{Binding Feo}"/>
                     <Label Text="Feo" VerticalOptions="Center" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
-                    <CheckBox x:Name="Listo"/>
+                        <CheckBox IsChecked="{Binding Listo}"/>
                     <Label Text="Listo" VerticalOptions="Center" />
                 </StackLayout>
 
 
                 <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
-                    <CheckBox x:Name="Extravagante"/>
+                        <CheckBox IsChecked="{Binding Extravagante}"/>
                     <Label Text="Extravagante" VerticalOptions="Center" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
-                    <CheckBox x:Name="Raro"/>
+                        <CheckBox IsChecked="{Binding Raro}"/>
                     <Label Text="Raro" VerticalOptions="Center" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
-                    <CheckBox x:Name="Grande"/>
+                        <CheckBox IsChecked="{Binding Grande}"/>
                     <Label Text="Grande" VerticalOptions="Center" />
                 </StackLayout>
             </Grid>
@@ -83,8 +83,11 @@
 
 
         <FlexLayout JustifyContent="Center">
-            <Button Text="Criticar" FontSize="26"/>
+            <Button Text="Criticar" Command="{Binding Criticar}" FontSize="26"/>
         </FlexLayout>
+
+
+        <Label Text="{Binding Resultado}" HorizontalOptions="Center"/>
 
 
     </StackLayout>
