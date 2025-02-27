@@ -11,7 +11,7 @@
         </Frame>
 
         <Label Text="Nombre:" Padding="20,20,20,0" FontSize="18"/>
-        <Entry Placeholder="Ingrese Nombre"  x:Name="Nombre" WidthRequest="300"/>
+        <Entry Placeholder="Ingrese Nombre"  Text="{Binding Nombre}" WidthRequest="300"/>
 
         <Label Text="Genero:" Padding="20,20,20,0" FontSize="18"/>
 
@@ -75,7 +75,7 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
                         <CheckBox IsChecked="{Binding Grande}"/>
-                    <Label Text="Grande" VerticalOptions="Center" />
+                    <Label Text="Guapo" VerticalOptions="Center" />
                 </StackLayout>
             </Grid>
     </StackLayout>

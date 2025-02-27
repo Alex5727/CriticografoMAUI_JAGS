@@ -22,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,7 +40,7 @@
               "RelativeDocumentMoniker": "ViewModel\\VMcriticografo.cs",
               "ToolTip": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\ViewModel\\VMcriticografo.cs",
               "RelativeToolTip": "ViewModel\\VMcriticografo.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAADwv34AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAhwLIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T16:11:08.184Z",
               "EditorCaption": ""
@@ -45,7 +53,7 @@
               "RelativeDocumentMoniker": "Views\\CriticografoView.xaml",
               "ToolTip": "C:\\Users\\CD16\\source\\repos\\CriticografoMAUI_JAGS\\Views\\CriticografoView.xaml",
               "RelativeToolTip": "Views\\CriticografoView.xaml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-27T15:43:31.993Z",
               "EditorCaption": ""
@@ -60,8 +68,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:44:48.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T15:44:48.837Z"
             }
           ]
         }

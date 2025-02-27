@@ -176,7 +176,7 @@ public class VMcriticografo : INotifyPropertyChanged
             }
             if (Grande == true)
             {
-                caracteristicas = agregarCaracteristica(caracteristicas, "Grande");
+                caracteristicas = agregarCaracteristica(caracteristicas, "Guapo");
             }
 
             string resultado = "Nombre: " + nombre + "\nSexo: " + sexo + "\nCaracteristicas: " + caracteristicas;
