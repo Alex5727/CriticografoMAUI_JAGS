@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CriticografoMAUI_JAGS.Views.CriticografoView"
+             NavigationPage.HasNavigationBar="False"
+             Title="CriticografoView">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Criticocrafo" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Nombre:" Padding="20,20,20,0" FontSize="18"/>
+        <Entry Placeholder="Ingrese Nombre"  x:Name="Nombre" WidthRequest="300"/>
+
+        <Label Text="Genero:" Padding="20,20,20,0" FontSize="18"/>
+
+
+        <FlexLayout JustifyContent="SpaceAround">
+            <StackLayout >
+                <FlexLayout AlignItems="Center">
+                    <RadioButton GroupName="Genero"  x:Name="Hombre"/>
+                    <Label Text="Hombre" VerticalOptions="Center" />
+                </FlexLayout>
+                <FlexLayout AlignItems="Center" Margin="0,20,60,0">
+                    <RadioButton GroupName="Genero" x:Name="Mujer"/>
+                    <Label Text="Mujer" VerticalOptions="Center" />
+                </FlexLayout>
+            </StackLayout>
+        </FlexLayout>
+
+
+    
+        <FlexLayout JustifyContent="Center" >
+            <StackLayout Padding="30">
+                <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                    <CheckBox x:Name="Alto"/>
+                    <Label Text="Alto" VerticalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                    <CheckBox x:Name="Feo"/>
+                    <Label Text="Feo" VerticalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+                    <CheckBox x:Name="Listo"/>
+                    <Label Text="Listo" VerticalOptions="Center" />
+                </StackLayout>
+
+
+                <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                    <CheckBox x:Name="Extravagante"/>
+                    <Label Text="Extravagante" VerticalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
+                    <CheckBox x:Name="Raro"/>
+                    <Label Text="Raro" VerticalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+                    <CheckBox x:Name="Grande"/>
+                    <Label Text="Grande" VerticalOptions="Center" />
+                </StackLayout>
+            </Grid>
+    </StackLayout>
+    </FlexLayout>
+
+
+        <FlexLayout JustifyContent="Center">
+            <Button Text="Criticar" FontSize="26"/>
+        </FlexLayout>
+
+
+    </StackLayout>
+</ContentPage>
